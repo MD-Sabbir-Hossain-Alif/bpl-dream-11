@@ -47,23 +47,28 @@ function App() {
         //     )}
         // </div>
 
-        <div className="max-w-[1600] w-[82.5%] mx-auto">
-            <Navbar coin={coin}></Navbar>
-            <Hero></Hero>
+        <>
+            <div className="max-w-400 w-[82.5%] mx-auto">
+                <Navbar coin={coin}></Navbar>
+                <Hero></Hero>
 
-            <Suspense
-                fallback={
-                    <span className="loading loading-dots loading-xl"></span>
-                }
-            >
-                <PlayersSection
-                    playerPromise={playerPromise}
-                    coin={coin}
-                    setCoin={setCoin}
-                ></PlayersSection>
-            </Suspense>
-            <ToastContainer></ToastContainer>
-        </div>
+                <Suspense
+                    fallback={
+                        <span className="loading loading-dots loading-xl"></span>
+                    }
+                >
+                    <PlayersSection
+                        playerPromise={playerPromise}
+                        coin={coin}
+                        setCoin={setCoin}
+                    ></PlayersSection>
+                </Suspense>
+                <ToastContainer></ToastContainer>
+            </div>
+            <div className="max-w-400 w-full bg-[#06091A] mx-auto mt-47">
+                <div className="w-[82.5%] mx-auto p-58">hello</div>
+            </div>
+        </>
     );
 }
 

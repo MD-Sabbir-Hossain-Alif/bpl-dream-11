@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { BiSolidCricketBall } from "react-icons/bi";
 import { FaFlag, FaUser, FaStar } from "react-icons/fa";
 import { MdSportsCricket } from "react-icons/md";
@@ -14,17 +13,23 @@ const AvailablePlayers = ({
     const { name, country, type, rating, batting, bowling, price, image } =
         player;
     // console.log(player);
-    const [selected, setSelected] = useState(false);
+    const isSelected = selectedPlayer.some((item) => item.id === player.id);
 
-    const handalPlayer = () => {
-        if (coin - price >= 0) {
-            setCoin(coin - price);
-            setSelected(true);
-            toast.success(`${name} is selected`);
-            setSelectedPlayer([...selectedPlayer, player]);
+    const handlePlayer = () => {
+        if (coin < price) {
+            toast.warning("Not enough coin!");
             return;
         }
-        toast.error("Not enough coin!");
+
+        if (isSelected) {
+            toast.error(`${name} already selected`);
+            return;
+        }
+
+        setCoin((coin) => coin - price);
+        setSelectedPlayer((coin) => [...coin, player]);
+
+        toast.success(`${name} is selected`);
     };
 
     return (
@@ -72,11 +77,11 @@ const AvailablePlayers = ({
                     <p className="font-semibold">Price: ${price}</p>
                     <div className="card-actions justify-end">
                         <button
-                            disabled={selected}
-                            onClick={handalPlayer}
+                            disabled={isSelected}
+                            onClick={handlePlayer}
                             className="btn"
                         >
-                            {selected ? " Selected" : "Choose Player"}
+                            {isSelected ? " Selected" : "Choose Player"}
                         </button>
                     </div>
                 </div>
