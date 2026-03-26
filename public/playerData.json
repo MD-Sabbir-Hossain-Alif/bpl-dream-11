@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "type": "All-rounder",
+        "rating": 88,
+        "batting": "Left-hand bat",
+        "bowling": "Left-arm orthodox",
+        "price": 100000,
+        "image": "https://i.ibb.co.com/VYkNkXFX/shakib-al-hasan.png"
+    },
+    {
+        "id": 2,
+        "name": "Mustafizur Rahman",
+        "country": "Bangladesh",
+        "type": "Bowler",
+        "rating": 87,
+        "batting": "Left-hand bat",
+        "bowling": "Left-arm fast",
+        "price": 95000,
+        "image": "https://i.ibb.co.com/m5D5jxyW/mustafisur-rahman.png"
+    },
+    {
+        "id": 3,
+        "name": "Joe Root",
+        "country": "England",
+        "type": "Batsman",
+        "rating": 90,
+        "batting": "Right-hand bat",
+        "bowling": "Right-arm offbreak",
+        "price": 110000,
+        "image": "https://i.ibb.co.com/NQMNTcp/joe-root.png"
+    },
+    {
+        "id": 4,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "type": "Batsman",
+        "rating": 91,
+        "batting": "Right-hand bat",
+        "bowling": "Right-arm offbreak",
+        "price": 115000,
+        "image": "https://i.ibb.co.com/mVbdcghC/kane-williamson.png"
+    },
+    {
+        "id": 5,
+        "name": "Steve Smith",
+        "country": "Australia",
+        "type": "Batsman",
+        "rating": 93,
+        "batting": "Right-hand bat",
+        "bowling": "Right-arm legbreak",
+        "price": 120000,
+        "image": "https://i.ibb.co.com/8nL9C4MF/steven-smith.png"
+    },
+    {
+        "id": 6,
+        "name": "Ben Stokes",
+        "country": "England",
+        "type": "All-rounder",
+        "rating": 89,
+        "batting": "Left-hand bat",
+        "bowling": "Right-arm fast-medium",
+        "price": 13000,
+        "image": "https://i.ibb.co.com/qFdkXssN/ben-stokes.png"
+    },
+    {
+        "id": 7,
+        "name": "Rishad Hossain",
+        "country": "Bangladesh",
+        "type": "Bowler",
+        "rating": 82,
+        "batting": "Right-hand bat",
+        "bowling": "Right-arm legbreak",
+        "price": 85000,
+        "image": "https://i.ibb.co.com/zHQJYnMf/rishad-hossain.png"
+    },
+    {
+        "id": 8,
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "type": "Wicketkeeper-Batsman",
+        "rating": 86,
+        "batting": "Left-hand bat",
+        "bowling": "",
+        "price": 95000,
+        "image": "https://i.ibb.co.com/GQrmHNVC/quinton-de-kock.png"
+    },
+    {
+        "id": 9,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "type": "Bowler",
+        "rating": 91,
+        "batting": "Right-hand bat",
+        "bowling": "Right-arm fast",
+        "price": 100000,
+        "image": "https://i.ibb.co.com/WNgtfpXt/pat-cummins.png"
+    },
+    {
+        "id": 10,
+        "name": "Trent Boult",
+        "country": "New Zealand",
+        "type": "Bowler",
+        "rating": 89,
+        "batting": "Right-hand bat",
+        "bowling": "Left-arm fast-medium",
+        "price": 90000,
+        "image": "https://i.ibb.co.com/GQych8y6/trent-boult.png"
+    },
+    {
+        "id": 11,
+        "name": "AB de Villiers",
+        "country": "South Africa",
+        "type": "Wicketkeeper-Batsman",
+        "rating": 94,
+        "batting": "Right-hand bat",
+        "bowling": "Right-arm medium",
+        "price": 130000,
+        "image": "https://i.ibb.co.com/GvgGNR4L/ab-devilliers.png"
+    },
+    {
+        "id": 12,
+        "name": "David Warner",
+        "country": "Australia",
+        "type": "Batsman",
+        "rating": 88,
+        "batting": "Left-hand bat",
+        "bowling": "Right-arm legbreak",
+        "price": 100000,
+        "image": "https://i.ibb.co.com/q3B95957/david-warner.png"
+    }
+]
